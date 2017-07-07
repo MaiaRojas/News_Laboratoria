@@ -7,8 +7,28 @@
     "test": "test",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaiaRojas/News_Laboratoria.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "JavaScript",
+    "npm"
+  ],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/MaiaRojas/News_Laboratoria#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
   "dependencies": {
     "express": "^4.15.3",
     "firebase": "^4.1.3"
