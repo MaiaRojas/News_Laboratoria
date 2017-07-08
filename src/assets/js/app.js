@@ -5,7 +5,8 @@ const render = (root) => {
 	const wrapper = $('<div class="wrapper"></div>');
 
   wrapper.append(headerNews());
-
+	wrapper.append(bodyNews());
+	wrapper.append(bodyWorld());
 	root.append(wrapper);
 }
 

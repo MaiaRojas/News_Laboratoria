@@ -1,10 +1,21 @@
+$amarillo:#F7B617;
+$negro:#2B2B2B;
+$white: #fff;
+$bg_red:red;
+$bg_black:black;
+$bg_yellow:yellow;
+$bg_grren:green;
+$bg_blue:blue;
+.hidden{
+  overflow: hidden;
+}
 .navbar {
     margin-bottom: 0;
   }
 .inline{
   display: inline-block;
 }
- .flex{
+.flex{
    display: flex;
  }
 .space-between{
@@ -22,7 +33,6 @@
 .icon{
   height: 20px;
   width: 25px;
-  // margin: 2%;
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -37,4 +47,43 @@
 }
 .icon__redes--cloud{
   background-image: url(../img/cloud.png);
+}
+.home-menu{
+  background-color: #F7B617;
+  color: $white;
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    align-items: center;
+    li{
+      display: inline-block;
+    }
+  }
+}
+.text_news{
+  position: absolute;
+  bottom: 0;
+  color: $white;
+}
+.contNews_hoy{
+  padding: 0 !important;
+  height: 240px;
+  div.cont_img{
+  height: 190px;
+  overflow: hidden;
+  }
+  div.cont_text_news{
+    height: 40px;
+    background-color: $negro;
+    color: $white;
+    min-height: 50px;
+  }
+}
+.padding_none{
+  padding: 0 !important;
+}
+.worl_news{
+
 }
