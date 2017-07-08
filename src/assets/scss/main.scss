@@ -85,5 +85,28 @@ $bg_blue:blue;
   padding: 0 !important;
 }
 .worl_news{
+  color:$white;
+    div{
+      div.cont_world_img{
 
+      }
+      div.cont_world_text{
+        background-color: $negro;
+        height: 60px;
+      }
+      div.extend{
+       height: 100px;
+       div.cont_world_img_ext{
+
+       }
+       div.cont_world_text_ext{
+         display: flex;
+         align-items: center;
+         height: 100%;
+         background-color: $negro;
+         color: $white;
+         text-align: center;
+       }
+     }
+  }
 }
